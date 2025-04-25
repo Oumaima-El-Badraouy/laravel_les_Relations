@@ -9,8 +9,8 @@ Ce projet contient des exemples pratiques des relations Eloquent dans Laravel :
 
 1. Cloner le dépôt :
 ```bash
-git clone https://github.com/votre-utilisateur/nom-du-repo.git
-cd nom-du-repo
+git clone https://github.com/Oumaima-El-Badraouy/laravel_les_Relations.git
+cd laravel_les_Relations
 ```
 
 2. Installer les dépendances PHP :
@@ -30,7 +30,7 @@ php artisan key:generate
 
 5. Lancer les migrations (et seed si besoin) :
 ```bash
-php artisan migrate
+php artisan migrate && php artisan db:seed
 ```
 
 6. Démarrer le serveur :
